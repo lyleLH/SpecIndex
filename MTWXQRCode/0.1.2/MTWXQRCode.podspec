@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/lyleLH/MTWXQRCode'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'v2top1@163.com' => 'v2top1@163.com' }
-  s.source           = { :git => 'https://github.com/lyleLH/MTWXQRCode.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:lyleLH/MTWXQRcode.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
   s.source_files = 'MTWXQRCode/Classes/**/*'  
   s.dependency 'WeexSDK'
